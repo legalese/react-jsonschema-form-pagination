@@ -18,7 +18,6 @@ const navField = NavComponent => props => {
       {navConfs.map((navConf, i) => (
         <div className="col-md-12" key={i}>
           <NavComponent {...navConf} />
-          <br />
         </div>
       ))}
       <div className={origUiSchema.classNames}>
